@@ -40,3 +40,9 @@ input[type="checkbox"] {
 input[type="checkbox"]:focus {
   outline: 0;
 }
+
+.text-strike {
+  font-style: italic;
+  text-decoration: line-through;
+  color: #cdcdcd;
+}

@@ -2,7 +2,9 @@ import React from "react";
 
 function TodoItem(props) {
   return (
-    <div className="todo-item">
+    <div
+      className={props.todo.completed ? "text-strike todo-item" : "todo-item"}
+    >
       <input
         type="checkbox"
         checked={props.todo.completed}
